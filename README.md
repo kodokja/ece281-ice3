@@ -7,9 +7,9 @@ Targeted toward Digilent Basys3. Make sure to install the [board files](https://
 
 Tested on Vivado 2024.2
 
-![Displayed waveform indicates the testing of the ripple adder. ](ripple_adder_waveform.png)
+![Displayed waveform indicates the testing of the ripple adder](ripple_adder_waveform.png)
 
-![Displayed here is the sketched entity of the ripple adder aimed to show how the switches represent the input A, B, Cin and how the leds indicate the outputs S and Cout](ripple_adder_sketch.png)
+![Displayed here is the sketched entity of the ripple adder aimed to show how the switches represent the input A, B, Cin and how the leds indicate the outputs S and Cout](rippleadder_sketch.png)
 ---
 
 ## GitHub Actions Testbench

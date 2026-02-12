@@ -9,7 +9,7 @@ Tested on Vivado 2024.2
 
 ![Displayed waveform indicates the testing of the ripple adder](rippleadder_waveform.png)
 
-![Displayed here is the sketched entity of the ripple adder aimed to show how the switches represent the input A, B, Cin and how the leds indicate the outputs S and Cout](ripple_adder_sketch 1.png)
+![Displayed here is the sketched entity of the ripple adder aimed to show how the switches represent the input A, B, Cin and how the leds indicate the outputs S and Cout](ripple_adder_sketch_1.png)
 ---
 
 ## GitHub Actions Testbench
@@ -24,3 +24,6 @@ Then it **elaborates** the entity defined by `$TB_ENTITY`
 Finally, the workflow **runs** the simulation. If successful then it will quietly exit with a `0` code.
 If any of the `assert` statements fail then GHDL will cease the simulation and exit with non-zero code; this will also cause the workflow to fail.
 Assert statements of other severity levels will be reported, but not fail the workflow.
+
+## Documentation
+During the completion of this assignment I did not use any other resources aside from the ICE3 outline. I did not recieve help from any other person nor did I use any other resources.

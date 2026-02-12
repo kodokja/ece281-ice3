@@ -1,6 +1,5 @@
 # ECE 281 ICE 3: Ripple-Carry Adder with Top Level Design
 
-This is a **template** repository.
 
 [ICE 3 instructions](https://usafa-ece.github.io/ece281-book/ICE/ICE3.html)
 
@@ -8,6 +7,9 @@ Targeted toward Digilent Basys3. Make sure to install the [board files](https://
 
 Tested on Vivado 2024.2
 
+![Displayed waveform indicates the testing of the ripple adder. ](ripple_adder_waveform.png)
+
+![Displayed here is the sketched entity of the ripple adder aimed to show how the switches represent the input A, B, Cin and how the leds indicate the outputs S and Cout](ripple_adder_sketch.png)
 ---
 
 ## GitHub Actions Testbench
